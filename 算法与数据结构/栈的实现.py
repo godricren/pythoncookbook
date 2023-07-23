@@ -20,3 +20,5 @@ class Stack:
 if __name__ == "__main__":
     s = Stack()
     print(s.is_empty())
+    s.push('hello')
+    print(s.size())
